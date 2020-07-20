@@ -1,0 +1,69 @@
+material course_obejosel/left90
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.0
+      texture_unit
+      {
+        texture ../../../Images/left90.png
+      }
+    }
+  }
+}
+
+
+
+material course_obejosel/right90
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.0
+      texture_unit
+      {
+        texture ../../../Images/right90.png
+      }
+    }
+  }
+}
+
+
+
+material course_obejosel/turn180
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.0
+      texture_unit
+      {
+        texture ../../../Images/turn180.png
+      }
+    }
+  }
+}
+
+
+
+material course_obejosel/finish
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5 1.0
+      texture_unit
+      {
+        texture ../../../Images/finish.png
+      }
+    }
+  }
+}
